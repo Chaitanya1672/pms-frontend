@@ -31,9 +31,8 @@
     "lint-staged": "^15.2.10"
   },
   "lint-staged": {
-    "**/*.{ts,json}": [
-      "prettier --write ."
-    ],
-    "**/*.ts": "lint --fix"
+    "**/*.{ts,tsx,js,jsx,json}": [
+      "prettier --write"
+    ]
   }
 }
